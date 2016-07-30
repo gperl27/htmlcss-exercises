@@ -1,0 +1,98 @@
+body {
+    color: #222;
+}
+
+nav {
+    text-align: right;
+}
+
+nav i {
+    opacity: .8;
+}
+
+nav i:hover {
+    opacity: 1;
+}
+
+nav li {
+    padding-left: 15px;
+    vertical-align: middle;
+}
+
+ul li {
+    display: inline-block;
+}
+
+li:hover {
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+main {
+    margin-top: 15%;
+    text-align: center;
+}
+
+main img {
+    width: 25%;
+}
+
+#searchbar {
+    height: 35px;
+    margin: 25px 25% 25px 25%;
+    border: 1px solid rgb(217, 217, 217);
+}
+
+#searchbar:hover {
+    border-color: #a0a0a0;
+    cursor: text;
+}
+
+#searchbar i {
+    float: right;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+button {
+    font-weight: 700;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid rgb(242, 242, 242);
+}
+
+button:hover {
+    border-color: #a0a0a0;
+}
+
+footer ul{
+    position: absolute;
+    bottom: 0;
+}
+
+footer {
+    width: 100%;
+}
+
+.line {
+    width: 100%;
+    position: absolute;
+    bottom: 45px;
+    border-top: rgb(242, 242, 242);
+}
+
+footer li {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+footer ul {
+    /* display: inline-block; */
+}
+
+
+#right {
+   right: 40px;
+}
